@@ -13,5 +13,5 @@ int main(void)
 	size_t len = strlen(message);
 
 	fwrite(message, sizeof(char), len, stderr);
-	return (0);
+	return (1);
 }
