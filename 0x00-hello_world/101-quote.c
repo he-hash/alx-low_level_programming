@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char *m = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	size_t len = strlen(message);
+	size_t len = strlen(m);
 
-	fwrite(message, sizeof(char), len, stderr);
+	fwrite(m, sizeof(char), len, stderr);
 	return (1);
 }
