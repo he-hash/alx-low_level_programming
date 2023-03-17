@@ -10,9 +10,9 @@ int main(void)
 {
 	__uint8_t i, j;
 
-	for (i = 0 ; i < 9 ; i++)
+	for (i = 48 ; i < 57 ; i++)
 	{
-		for (j = i ; j <= 9 ; j++)
+		for (j = i ; j <= 57 ; j++)
 		{
 			putchar(i);
 			putchar(j);
