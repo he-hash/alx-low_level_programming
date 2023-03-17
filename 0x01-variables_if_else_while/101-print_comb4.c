@@ -16,14 +16,14 @@ int main(void)
 		{
 			for (k = j + 1 ; k <= 57 ; k++)
 			{
-			putchar(i);
-			putchar(j);
-			putchar(k);
-			if (i != 55 || j != 56 || j != 57)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+				putchar(i);
+				putchar(j);
+				putchar(k);
+				if (i != 55 || j != 56 || k != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
