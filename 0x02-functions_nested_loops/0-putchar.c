@@ -8,14 +8,13 @@
 
 int main(void)
 {
-	char *var = "_putchar";
+	char *var = "_putchar\n";
 
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(var[i]);
 	}
-	_putchar('\n');
 	return (0);
 }
