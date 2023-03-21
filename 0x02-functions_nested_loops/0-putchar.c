@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *var = "_putchar\n";
+	char *var = "_putchar";
 
 	int i;
 
@@ -16,5 +16,6 @@ int main(void)
 	{
 		_putchar(var[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
